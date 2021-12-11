@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/GRAY-TUTORIAL/static/css/main.3be99e33.chunk.css",
+    "main.js": "/GRAY-TUTORIAL/static/js/main.9e98ef77.chunk.js",
+    "main.js.map": "/GRAY-TUTORIAL/static/js/main.9e98ef77.chunk.js.map",
+    "runtime-main.js": "/GRAY-TUTORIAL/static/js/runtime-main.196d3de0.js",
+    "runtime-main.js.map": "/GRAY-TUTORIAL/static/js/runtime-main.196d3de0.js.map",
+    "static/js/2.7fb2e027.chunk.js": "/GRAY-TUTORIAL/static/js/2.7fb2e027.chunk.js",
+    "static/js/2.7fb2e027.chunk.js.map": "/GRAY-TUTORIAL/static/js/2.7fb2e027.chunk.js.map",
+    "index.html": "/GRAY-TUTORIAL/index.html",
+    "static/css/main.3be99e33.chunk.css.map": "/GRAY-TUTORIAL/static/css/main.3be99e33.chunk.css.map",
+    "static/js/2.7fb2e027.chunk.js.LICENSE.txt": "/GRAY-TUTORIAL/static/js/2.7fb2e027.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.196d3de0.js",
+    "static/js/2.7fb2e027.chunk.js",
+    "static/css/main.3be99e33.chunk.css",
+    "static/js/main.9e98ef77.chunk.js"
+  ]
+}
