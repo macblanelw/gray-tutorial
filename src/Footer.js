@@ -5,9 +5,9 @@ const Footer = () => {
     const today = new Date();
 
     return (
-        <div>
+        <footer>
             <p>Today is: { today.toDateString() }</p>
-        </div>
+        </footer>
     )
 }
 

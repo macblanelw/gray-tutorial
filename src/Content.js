@@ -7,11 +7,26 @@ const HandleNames = () => {
   return names[int];
 }
 
+const handleClick = () => {
+    console.log("Clicked!")
+}
+
+const handleClick2 = (name) => {
+    console.log(`${name} was Clicked!`)
+}
+
+const handleClick3 = (e) => {
+    console.log(e.target.innerText)
+}
+
 const Content = () => {
     return (
-        <div>
-            <p>You are such a {HandleNames()}!</p>            
-        </div>
+        <main>
+            <p onDoubleClick={handleClick}>You are such a {HandleNames()}!</p>    
+            <button onClick={ handleClick }>Click it!</button>
+            <button onClick={ () => handleClick2('Lance') }>Click it!</button>        
+            <button onClick={ (e) => handleClick3(e) }>Click it!</button>        
+        </main>
     )
 }
 
