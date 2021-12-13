@@ -1,27 +1,8 @@
 import React from 'react'
-import { useState } from 'react';
 import { FaTrashAlt } from 'react-icons/fa';
 
-let myList = [
-    {
-        id: 1,
-        checked: false,
-        item: "One half pound bag of chocolate covered almonds"
-    },
-    {
-        id: 2,
-        checked: true,
-        item: "Item 2"
-    },
-    {
-        id: 3,
-        checked: false,
-        item: "Item 3"
-    }
-]
 
-const Content = () => {
-    const [items, setItems] = useState(myList);
+const Content = ( { items, setItems }) => {
 
     const handleCheck = (id) => {
         console.log(`key: ${id}`)
